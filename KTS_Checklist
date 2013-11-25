@@ -28,11 +28,9 @@ run KTS_checklist.
 
 print "KTS checklist version b initiated".
 wait 2.
-print "Welcome to the Kerbal Transportation System G3 pre-flight checklist.".
+print "Welcome to the Kerbal Transportation System 3G pre-flight checklist.".
 
 
-
-stage.
 
 
 
