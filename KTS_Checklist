@@ -1,0 +1,33 @@
+
+print "KTS checklist version b initiated".
+wait 2.
+print "Welcome to the Kerbal Transportation System G3 pre-flight checklist.".
+
+
+stage.
+
+
+
+wait 5.
+
+print "check
+
+print "Inspect payload then run go_1".
+
+
+print "Inspect Fuel lines, then run go_2".
+
+
+
+print "Inspect payload then run go_1".
+
+if (gear down) print "gear was down, raising".
+GEAR UP.
+
+if (SAS on) print "SAS was on, raising"
+if K
+
+
+
+if 
+
