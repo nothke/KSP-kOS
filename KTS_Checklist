@@ -1,7 +1,35 @@
+run KTS.
+
+print "KTS file loader initiated".
+
+copy KTS_checklist from archive.
+print "KTS_checklist - loaded".
+wait 1/2.
+
+copy go_1 from archive.
+print "go_1 - loaded".
+wait 1/2.
+
+opy go_2 from archive.
+print "go_2 - loaded".
+wait 1/2.
+
+opy go_3 from archive.
+print "go_3 - loaded".
+wait 1/2.
+
+opy go_forlaunch from archive.
+print "go_forlaunch - loaded".
+wait 1/2.
+
+run KTS_checklist.
+
+// KTS_checklist
 
 print "KTS checklist version b initiated".
 wait 2.
 print "Welcome to the Kerbal Transportation System G3 pre-flight checklist.".
+
 
 
 stage.
@@ -18,8 +46,14 @@ print "Inspect payload then run go_1".
 print "Inspect Fuel lines, then run go_2".
 
 
-
+go_2;
 print "Inspect payload then run go_1".
+
+print "Preflight check successfully completed, run go_for_launch to start countdown"
+
+go_forlaunch:
+
+
 
 if (gear down) print "gear was down, raising".
 GEAR UP.
